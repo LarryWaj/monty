@@ -37,7 +37,7 @@ execute	executes the opcode	No Return	execute.c
 free_stack	frees a doubly linked list	No Return	free_stack.c
 main	monty code interpreter	0 on success	main.c
 Examples
-$lexxyla> ls
+$larryWaj> ls
 basics.c    general.c  main.h  memory.c   shell.c
 builders.c  helper.c   hsh          README.md  test
 Authors
