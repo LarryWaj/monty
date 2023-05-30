@@ -1,19 +1,32 @@
-# monty
-this is repository of the monty 7.8 program
-MONTY
+# MONTY
+![alt text](https://pbs.twimg.com/media/CFYYWy6UEAE9Ow-.png)
 
-Description
+## Description
+
 Monty 0.98 is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it. The goal of this project is to create an interpreter for Monty ByteCodes files.
 
-Installation
-Clone the repository:
+***
+
+## Installation
+
+1. Clone the repository:
+```console
 https://github.com/Lexxyla/monty.git
-Usage
-Enter at directory
+```
+
+## Usage
+1. Enter at directory
+```console
 cd monty
-Compile:
+```
+
+2. Compile:
+```console
 gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
-Execute:
+```
+
+3. Execute:
+```console
 ./monty file.m
 //The file contains the bytcode instructions for example
 cat -e 000.m
@@ -26,19 +39,28 @@ push 4$
     push 5    $
       push    6        $
 pall$
-Functions
+```
+
+## Functions
+
 The functions used are:
 
-Name	Description	Return	File
-_f_add	adds the top two elements of the stack	No Return	add.c
-addnode	add node to the head stack	No Return	addnode.c
-f_div	divides the top two elements of the stack.	No Return	div.c
-execute	executes the opcode	No Return	execute.c
-free_stack	frees a doubly linked list	No Return	free_stack.c
-main	monty code interpreter	0 on success	main.c
-Examples
-$larryWaj> ls
+|Name | Description | Return| File
+|:--: | :-- | :--| :--|
+|_f_add | adds the top two elements of the stack | No Return | add.c|
+| addnode | add node to the head stack | No Return | addnode.c|
+| f_div | divides the top two elements of the stack. | No Return | div.c|
+| execute | executes the opcode | No Return | execute.c|
+| free_stack | frees a doubly linked list | No Return | free_stack.c|
+| main | monty code interpreter | 0 on success | main.c| 
+
+### Examples
+
+```console
+$lexxyla> ls
 basics.c    general.c  main.h  memory.c   shell.c
 builders.c  helper.c   hsh          README.md  test
-Authors
-Eze-Awaji Larry
+```
+
+### Authors
+[Bamidele Adefolaju](https://github.com/Lexxyla) and [Akinloye Oluwakemi](https://github.com/Natacha-07)
