@@ -11,7 +11,7 @@ Monty 0.98 is a scripting language that is first compiled into Monty byte codes 
 
 1. Clone the repository:
 ```console
-https://github.com/Lexxyla/monty.git
+https://github.com/LarryWaj/monty.git
 ```
 
 ## Usage
@@ -57,10 +57,10 @@ The functions used are:
 ### Examples
 
 ```console
-$lexxyla> ls
+$larryWaj> ls
 basics.c    general.c  main.h  memory.c   shell.c
 builders.c  helper.c   hsh          README.md  test
 ```
 
 ### Authors
-[Bamidele Adefolaju](https://github.com/Lexxyla) and [Akinloye Oluwakemi](https://github.com/Natacha-07)
+[Larry Eze-Awaji](https://github.com/LarryWaj)
